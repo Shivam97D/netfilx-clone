@@ -1,0 +1,366 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body {
+  background-color: black;
+  width: 90vw;
+  
+}
+header {
+  background-color: black;
+  background-image: url(resources/intro.jpg);
+  background-position: center center;
+  width: 99vw;
+  height: 80vh;
+  /* opacity: 50%;   */
+  /* filter: blur(1px) brightness( 90% ) opacity(70%) ;  */
+}
+
+.head {
+  height: 80vh;
+  /* background: transparent; */
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px) opacity(50%) brightness(2%);
+  /* border: 2px solid white; */
+}
+.ban {
+  color: white;
+  background-color: transparent;
+}
+nav {
+  padding-top: 5vh;
+  display: flex;
+  background-color: red;
+  background: transparent;
+  justify-content: center;
+  gap: 40vw;
+}
+
+nav img {
+  position: relative;
+  z-index: 10;
+  height: 5vh;
+  border: 5vh;
+}
+
+.buttons {
+  background-color: transparent;
+  display: flex;
+  gap: 5vw;
+  position: relative;
+  z-index: 10;
+}
+
+.b {
+  border: white 2px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0vw 1vw;
+}
+
+.bb {
+  background-color: red;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0vw 1vw;
+}
+
+.login {
+  color: white;
+  padding: 15vh;
+  display: flex;
+  gap: 3vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.t {
+  font-weight: bolder;
+  font-size: 50px;
+  justify-content: center;
+}
+.tt {
+  font-size: 20px;
+}
+.ttt {
+  font-size: 25px;
+}
+.tttt {
+  display: flex;
+  gap: 0.5vw;
+}
+.box {
+  /* display: flex; */
+  color: rgb(163, 163, 163);
+  background-color: rgba(41, 41, 41, 0.5);
+  border: 2px solid gray;
+  border-radius: 3px;
+  padding: 1vw 20vw 1vw 1vw;
+  /* background-color:transparent ; */
+  backdrop-filter: opacity(10%);
+}
+
+.start {
+  font-weight: bolder;
+  display: flex;
+  background-color: red;
+  border: solid red 2px;
+  border-radius: 2px;
+  align-items: center;
+  font-size: 20px;
+  padding: 1vw 4vw;
+}
+
+.gapi {
+  width: 100vw;
+  height: 1vh;
+  background-color: rgb(45, 45, 45);
+}
+
+.seci {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 66vh;
+  color: white;
+  /* background-color: rgb(159, 121, 121); */
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.txti {
+  font-weight: bolder;
+  font-size: 55px;
+}
+.txtii {
+  display: flex;
+  word-spacing: 1px;
+  /* background-color: rebeccapurple; */
+  width: 30vw;
+  font-size: 20px;
+}
+
+.secii {
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  height: 66vh;
+  width: 100%;
+}
+.mobti {
+  color: white;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.mobtii {
+  color: white;
+  font-size: 20px;
+}
+
+.seciii {
+  width: 100vw;
+  height: 66.5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3txt {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.sec3txti {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.sec3txtii {
+  font-size: 25px;
+  width: 35vw;
+  /* background-color: aqua; */
+}
+
+.sec4 {
+  display: flex;
+  gap: 2vw;
+  width: 100vw;
+  height: 66.5vh;
+}
+
+.sec4txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.txt4i {
+  font-weight: bolder;
+  font-size: 65px;
+}
+
+.txt4ii {
+  font-size: 25px;
+  width: 35vw;
+  /* background-color: aqua; */
+}
+
+.faq {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  margin-top: 7vh;
+  height: 112.5vh;
+}
+.faqt {
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.faqlist {
+  display: grid;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh;
+  grid-template-columns: 80vw;
+  /* background-color: aqua; */
+  /* border: white solid 3px; */
+  row-gap: 1vh;
+}
+.qi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+.qi:hover{
+    background-color: rgb(33, 33, 33);
+    transition: all ease 0.3s;
+}
+
+.ques {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-left: 3vw;
+}
+.quessym {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-right: 3vw;
+}
+
+.membership {
+  display: flex;
+  /* background-color: orange    ; */
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.memtxt {
+  color: white;
+  font-size: 25px;
+}
+
+.membot {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.starti {
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  background-color: red;
+  border: solid red 2px;
+  border-radius: 2px;
+  align-items: center;
+  font-size: 25px;
+  padding: 0.7vw 4vw;
+}
+.boxi {
+  /* display: flex; */
+  color: rgb(192, 192, 192);
+  border: 2px solid gray;
+  border-radius: 3px;
+  padding: 1vw 20vw 1vw 1vw;
+  background-color: rgb(27, 27, 27);
+  backdrop-filter: opacity(10%);
+}
+
+.seclast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+  color: white;
+  /* background-color: aqua; */
+}
+
+.contact {
+  text-decoration: underlinef;
+  font-weight: lighter;
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-template-rows: 6vh 6vh 6vh 6vh 6vh 6vh;
+  /* cursor: pointer; */
+}
+
+.cb {
+  cursor: pointer;
+}
+.cbi {
+  /* grid-row: ; */
+  grid-column: 1/5;
+}
+.cbii {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  grid-row: 6/7;
+  grid-column: 1/5;
+  width: 7vw;
+  height: 4vh;
+  border: white 1px solid;
+  padding: 0px 0.5vw;
+  border-radius: 3px;
+}
+.cbiii {
+  grid-row: 7/8;
+  grid-column: 1/5;
+}
+
+.gardi {
+  margin-top: 50vh;
+  color: white;
+}
